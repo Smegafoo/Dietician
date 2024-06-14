@@ -1,6 +1,7 @@
 package SmegafooProject.dieticianDatabase.webApi.controllers;
 
 import SmegafooProject.dieticianDatabase.business.abstracts.CustomerService;
+import SmegafooProject.dieticianDatabase.business.response.GetAllCustomersResponse;
 import SmegafooProject.dieticianDatabase.entities.concretes.Customer;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -22,7 +23,7 @@ public class CustomerController {
     }
 
     @GetMapping("/getAll")
-    public List<Customer> getAll(){
+    public List<GetAllCustomersResponse> getAll(){
         return customerService.getAll();
     }
 

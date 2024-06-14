@@ -31,6 +31,7 @@ public class Diet {
     private String endDate;
 
     @OneToMany
+    @JoinColumn(name = "customer id")
     private List<Customer> customers;
 
 
