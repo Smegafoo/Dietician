@@ -1,4 +1,4 @@
-package SmegafooProject.dieticianDatabase.business.mappers;
+package SmegafooProject.dieticianDatabase.core.utilities.mappers;
 
 import org.modelmapper.ModelMapper;
 

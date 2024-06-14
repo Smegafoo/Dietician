@@ -1,9 +1,8 @@
-package SmegafooProject.dieticianDatabase.business.mappers;
+package SmegafooProject.dieticianDatabase.core.utilities.mappers;
 
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
-import org.modelmapper.spi.MatchingStrategy;
 import org.springframework.stereotype.Service;
 
 @Service
